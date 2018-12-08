@@ -1,0 +1,23 @@
+author: djzxz
+type: lib
+description: Arduino DS3231 library
+version: 1.0
+
+sources:
+  - src
+filesystem:
+  - fs
+config_schema:
+libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-wire
+  - origin: https://github.com/mongoose-os-libs/arduino-spi
+tags:
+  - arduino
+  - c
+  - js
+  - hw
+  - docs:arduino:DS3231 RTC
+ 
+skeleton_version: 2017-05-18
+manifest_version: 2017-05-18
